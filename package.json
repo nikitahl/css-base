@@ -1,13 +1,20 @@
 {
   "name": "css-base",
+  "description": "An online tool that help you to prototype and generate a base CSS theme on the fly",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public--url /css-base",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "main.css": "^2.0.0",
     "main.js": "0.0.1"
   },
   "devDependencies": {
-    "cssnano": "4.1.10"
+    "cssnano": "4.1.10",
+    "gh-pages": "^2.1.1"
   }
 }
