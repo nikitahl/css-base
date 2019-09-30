@@ -1,0 +1,1044 @@
+[
+	{
+		"title": "Body",
+		"settings": {
+			"tag": "body",
+			"sectionFields": {
+				"backgroundColor": "#e4e4e4",
+				"color": "#3c3c3c",
+				"fontSize": "16px",
+				"lineHeight": "1.6",
+				"letterSpacing": "0.1px",
+				"fontFamily": "Arial, sans-serif"
+			}
+		}
+	},
+	{
+		"title": "H1",
+		"settings": {
+			"tag": "h1",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "H2",
+		"settings": {
+			"tag": "h2",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "H3",
+		"settings": {
+			"tag": "h3",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "H4",
+		"settings": {
+			"tag": "h4",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "H5",
+		"settings": {
+			"tag": "h5",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "H6",
+		"settings": {
+			"tag": "h6",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Paragraph",
+		"settings": {
+			"tag": "p",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Blockquote",
+		"settings": {
+			"tag": "blockquote",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Address",
+		"settings": {
+			"tag": "address",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Unoredered List",
+		"settings": {
+			"tag": "ul",
+			"sectionFields": {
+				"listStyleType": "",
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Oredered List",
+		"settings": {
+			"tag": "ol",
+			"sectionFields": {
+				"listStyleType": "",
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Description List",
+		"settings": {
+			"tag": "dl",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Code",
+		"settings": {
+			"tag": "code",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Samp",
+		"settings": {
+			"tag": "samp",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Kbd",
+		"settings": {
+			"tag": "kbd",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Pre",
+		"settings": {
+			"tag": "pre",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Link",
+		"settings": {
+			"tag": "a",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Button",
+		"settings": {
+			"tag": "button",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Input type button",
+		"settings": {
+			"tag": "input[type='button']",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Input type submit",
+		"settings": {
+			"tag": "input[type='submit']",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Input type reset",
+		"settings": {
+			"tag": "input[type='reset']",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Q",
+		"settings": {
+			"tag": "q",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Abbr",
+		"settings": {
+			"tag": "abbr",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Mark",
+		"settings": {
+			"tag": "mark",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Del",
+		"settings": {
+			"tag": "del",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "S",
+		"settings": {
+			"tag": "s",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Ins",
+		"settings": {
+			"tag": "ins",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "U",
+		"settings": {
+			"tag": "u",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Small",
+		"settings": {
+			"tag": "small",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Strong",
+		"settings": {
+			"tag": "strong",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Em",
+		"settings": {
+			"tag": "em",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Span",
+		"settings": {
+			"tag": "span",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Cite",
+		"settings": {
+			"tag": "cite",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "B",
+		"settings": {
+			"tag": "b",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "I",
+		"settings": {
+			"tag": "i",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Bdi",
+		"settings": {
+			"tag": "bdi",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Bdo",
+		"settings": {
+			"tag": "bdo",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Dfn",
+		"settings": {
+			"tag": "dfn",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Sup",
+		"settings": {
+			"tag": "sup",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Sub",
+		"settings": {
+			"tag": "sub",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Time",
+		"settings": {
+			"tag": "time",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Var",
+		"settings": {
+			"tag": "var",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Table",
+		"settings": {
+			"tag": "table",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"borderCollapse": "",
+				"borderSpacing": ""
+			}
+		}
+	},
+	{
+		"title": "Table caption",
+		"settings": {
+			"tag": "caption",
+			"sectionFields": {
+				"color": "",
+				"captionSide": "bottom",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Table header",
+		"settings": {
+			"tag": "thead",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Table footer",
+		"settings": {
+			"tag": "tfoot",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Table body",
+		"settings": {
+			"tag": "tbody",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "TH",
+		"settings": {
+			"tag": "th",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "TR",
+		"settings": {
+			"tag": "tr",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "TD",
+		"settings": {
+			"tag": "td",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Fieldset",
+		"settings": {
+			"tag": "td",
+			"sectionFields": {
+				"border": ""
+			}
+		}
+	},
+	{
+		"title": "Legend",
+		"settings": {
+			"tag": "legent",
+			"sectionFields": {
+				"color": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Label",
+		"settings": {
+			"tag": "label",
+			"sectionFields": {
+				"color": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Input",
+		"settings": {
+			"tag": "input",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Select",
+		"settings": {
+			"tag": "select",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Output",
+		"settings": {
+			"tag": "output",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	},
+	{
+		"title": "Textarea",
+		"settings": {
+			"tag": "textarea",
+			"sectionFields": {
+				"color": "",
+				"backgroundColor": "",
+				"border": "",
+				"borderRadius": "",
+				"textDecoration": "",
+				"textTransform": "",
+				"fontSize": "",
+				"fontWeight": "",
+				"fontStyle": "",
+				"lineHeight": "",
+				"letterSpacing": "",
+				"fontFamily": ""
+			}
+		}
+	}
+]

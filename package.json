@@ -1,0 +1,13 @@
+{
+  "name": "css-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "main.css": "^2.0.0",
+    "main.js": "0.0.1"
+  },
+  "devDependencies": {
+    "cssnano": "4.1.10"
+  }
+}

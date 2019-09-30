@@ -1,0 +1,48 @@
+@media screen and (max-width: 600px) {
+  .aside {
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .aside.collapse {
+    left: -100%;
+  }
+
+  .main {
+    left: 0;
+    padding: 20px 35px;
+  }
+
+  .section-header {
+    padding: 15px;
+  }
+
+  .option {
+    margin: 18px 0;
+  }
+
+  .option input[type=text],
+  .option select {
+    padding: 8px;
+  }
+
+  .load-modal {
+    width: 90%;
+    max-height: 70%;
+    padding: 40px 0;
+    background: #111;
+    z-index: 2;
+  }
+
+  .close-modal {
+    top: 13px;
+    right: 13px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .mobile-view-toggle {
+    display: initial;
+  }
+}

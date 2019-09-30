@@ -1,0 +1,86 @@
+.load-modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 50%;
+	padding: 30px 0;
+	overflow-y: scroll;
+	overscroll-behavior: none;
+	background: var(--main-background-color);
+	color: var(--settings-color);
+	box-shadow: 0 10px 20px 1px rgba(0, 0, 0, 0.85);
+	font-size: initial;
+	line-height: initial;
+	letter-spacing: initial;
+	font-family: "Muli", sans-serif;
+}
+
+.load-items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.load-items li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 50px;
+	cursor: pointer;
+}
+
+.load-items li:hover {
+	background: var(--secondary-background-color);
+}
+
+.close-modal {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 14px;
+	height: 14px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	transform: rotate(45deg);
+}
+
+.close-modal::before,
+.close-modal::after {
+	content: "";
+	position: absolute;
+	background: var(--settings-color);
+}
+
+.close-modal::before {
+	left: 50%;
+	top: 0;
+	transform: translate(-50%, 0);
+	height: 100%;
+	width: 2px;
+}
+
+.close-modal::after {
+	height: 2px;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+.delete-saved-item {
+  color: var(--settings-color);
+	background: transparent;
+  border: none;
+	cursor: pointer;
+	user-select: none;
+	font-size: 13px;
+}
+
+.delete-saved-item :hover {
+	text-decoration: underline;
+}

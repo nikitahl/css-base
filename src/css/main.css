@@ -1,0 +1,262 @@
+* {
+	box-sizing: border-box;
+}
+
+.aside {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: var(--sidebar-width);
+	overflow-y: scroll;
+	overscroll-behavior: none;
+	background: var(--main-background-color);
+	color: var(--settings-color);
+	letter-spacing: 0;
+  line-height: initial;
+  font-size: 16px;
+	font-family: 'Muli', sans-serif;
+	transition: left .5s ease-in-out;
+}
+
+[data-active-panel="code"] .code {
+	display: block;
+}
+
+[data-active-panel="code"] .tab[data-type="code"] {
+	background: inherit;
+}
+
+[data-active-panel="settings"] .settings {
+	display: block;
+}
+
+[data-active-panel="settings"] .storage-controls {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+[data-active-panel="settings"] .tab[data-type="settings"] {
+	background: inherit;
+}
+
+.main {
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 300px;
+	right: 0;
+}
+
+.heading {
+	margin: 0 0 20px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.heading-2 {
+	margin: 0 0 10px;
+	font-size: 20px;
+}
+
+.items {
+	margin: 0 0 30px;
+}
+
+.tabs {
+	display: flex;
+}
+
+.tab {
+	flex: 0 0 50%;
+	padding: 15px 0;
+	text-align: center;
+	cursor: pointer;
+	background: var(--secondary-background-color);
+	user-select: none;
+}
+
+.tab:hover {
+	background: #424242;
+}
+
+.tab:last-child {
+	border-right: none;
+}
+
+.panel {
+	display: none;
+}
+
+.settings {
+	padding: 15px 0;
+}
+
+.section-header {
+	position: relative;
+	padding: 7px 15px;
+	border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #222;
+	cursor: pointer;
+	user-select: none;
+}
+
+.section-header::before {
+	content: '';
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	margin-top: -3px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 6px solid var(--settings-color);
+	border-bottom: none;
+}
+
+.section-header:hover {
+	background: #1a1a1a;
+}
+
+.section-header.active::before {
+	border-bottom: 6px solid var(--settings-color);
+	border-top: none;
+}
+
+.section-header.active + .section-body {
+	display: block;
+}
+
+.section-body {
+	display: none;
+	padding: 15px;
+}
+
+.option {
+  margin: 0 0 15px;
+	display: block;
+	user-select: none;
+}
+
+.option input,
+.option select {
+	outline-color: #daa520;
+}
+
+.option input[type="color"] {
+	position: relative;
+	top: 2px;
+	width: 25px;
+	height: 28px;
+	border: none;
+	padding: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+.option input[type="text"],
+.option select {
+ width: 200px;
+ border-radius: 0;
+ border: none;
+ background: #444;
+ padding: 3px 5px;
+ color: var(--settings-color);
+ display: inline-block;
+ margin: 7px 0 0;
+}
+
+.option select {
+	-webkit-appearance: none;
+}
+
+.datalist-wrap {
+	display: inline-block;
+}
+
+.select-wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+.select-wrapper::after {
+	content: '';
+	position: absolute;
+	right: 8px;
+	top: 50%;
+	margin-top: 0px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 6px solid var(--settings-color);
+	border-bottom: none;
+}
+
+.storage-controls {
+	display: none;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px 0 10px;
+}
+
+.storage-control,
+.copy-to-clipboard {
+	border: none;
+	background: #1a1a1a;
+	color: inherit;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.storage-control:hover,
+.copy-to-clipboard:hover {
+	background: #222;
+}
+
+.storage-description {
+	flex: 0 0 100%;
+	text-align: center;
+	margin: 15px 0 0;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 0 20px;
+}
+
+.storage-description a {
+	color: var(--settings-color);
+}
+
+.empty-storage {
+	text-align: center;
+	margin: 30px 0;
+	font-size: 17px;
+}
+
+.mobile-view-toggle {
+	display: none;
+	position: fixed;
+	left: 0;
+	z-index: 3;
+	top: 64px;
+	width: 17px;
+	height: 50px;
+	background: rgba(0, 0, 0, 0.7);
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+	cursor: pointer;
+}
+
+.mobile-view-toggle::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -6px;
+	margin-right: -2px;
+	border-top: 5px solid transparent;
+	border-right: 6px solid var(--settings-color);
+	border-bottom: 5px solid transparent;
+}
+
+.mobile-view-toggle.collapse::before {
+	border-right: none;
+	border-left: 6px solid var(--settings-color);
+}

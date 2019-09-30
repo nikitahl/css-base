@@ -1,0 +1,38 @@
+
+.code {
+	padding: 20px 10px;
+}
+
+.ready-styles {
+	tab-size: 0;
+	font-size: 14px;
+	margin: 0;
+	border: 1px solid #444;
+	background: #222;
+  padding: 4px;
+  margin: 20px 0 0;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+.style-selector {
+	color: darkgoldenrod;
+}
+
+.style-property {
+	color: lightgoldenrodyellow;
+}
+
+.style-value {
+	color: palegreen;
+}
+
+.source-code {
+	opacity: 0;
+	position: absolute;
+	left: -999px;
+}

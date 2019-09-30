@@ -1,0 +1,194 @@
+{
+  "backgroundColor": {
+    "type": "color",
+    "tag": "input"
+  },
+  "color": {
+    "type": "color",
+    "tag": "input"
+  },
+  "fontSize": {
+    "type": "text",
+    "tag": "input"
+  },
+  "lineHeight": {
+    "type": "text",
+    "tag": "input"
+  },
+  "letterSpacing": {
+    "type": "text",
+    "tag": "input"
+  },
+  "textDecoration": {
+    "type": "text",
+    "tag": "input"
+  },
+  "fontWeight": {
+    "type": "text",
+    "tag": "input"
+  },
+  "fontStyle": {
+    "type": "datalist",
+    "tag": "input",
+    "values": [
+      "inherit",
+      "initial",
+      "italic",
+      "normal",
+      "oblique",
+      "unset"
+    ]
+  },
+  "textTransform": {
+    "type": "datalist",
+    "tag": "input",
+    "values": [
+      "none",
+      "capitalize",
+      "uppercase",
+      "lowercase",
+      "inherit",
+      "initial",
+      "unset"
+    ]
+  },
+  "listStyleType": {
+    "type": "datalist",
+    "tag": "input",
+    "values": [
+      "disc",
+      "armenian",
+      "circle",
+      "cjk-ideographic",
+      "decimal",
+      "decimal-leading-zero",
+      "georgian",
+      "hebrew",
+      "hiragana",
+      "hiragana-iroha",
+      "katakana",
+      "katakana-iroha",
+      "lower-alpha",
+      "lower-greek",
+      "lower-latin",
+      "lower-roman",
+      "none",
+      "square",
+      "upper-alpha",
+      "upper-greek",
+      "upper-latin",
+      "upper-roman",
+      "initial",
+      "inherit"
+    ]
+  },
+  "border": {
+    "type": "text",
+    "tag": "input"
+  },
+  "borderRadius": {
+    "type": "text",
+    "tag": "input"
+  },
+  "borderCollapse": {
+    "type": "text",
+    "tag": "input"
+  },
+  "borderSpacing": {
+    "type": "text",
+    "tag": "input"
+  },
+  "captionSide": {
+    "type": "text",
+    "tag": "input"
+  },
+  "fontFamily": {
+    "type": "dropdown",
+    "tag": "select",
+    "groups": [
+      {
+        "name": "",
+        "values": [
+          {
+            "name": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "name": "System font",
+        "values": [
+          {
+            "name": "System",
+            "value": "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif"
+          }
+        ]
+      },
+      {
+        "name": "Websafe font",
+        "values": [
+          {
+            "name": "Arial",
+            "value": "Arial, sans-serif"
+          },
+          {
+            "name": "Arial Black",
+            "value": "Arial Black, sans-serif"
+          },
+          {
+            "name": "Bookman",
+            "value": "Bookman, serif"
+          },
+          {
+            "name": "Courier New",
+            "value": "Courier New, monospace"
+          },
+          {
+            "name": "Courier",
+            "value": "Courier, monospace"
+          },
+          {
+            "name": "Comic Sans MS",
+            "value": "Comic Sans MS, sans-serif"
+          },
+          {
+            "name": "Garamond",
+            "value": "Garamond, serif"
+          },
+          {
+            "name": "Georgia, serif",
+            "value": "Georgia, serif"
+          },
+          {
+            "name": "Helvetica",
+            "value": "Helvetica, sans-serif"
+          },
+          {
+            "name": "Impact",
+            "value": "Impact, sans-serif"
+          },
+          {
+            "name": "Palatino",
+            "value": "Palatino, serif"
+          },
+          {
+            "name": "Times",
+            "value": "Times, serif"
+          },
+          {
+            "name": "Times New Roman",
+            "value": "Times New Roman, serif"
+          },
+          {
+            "name": "Trebuchet MS",
+            "value": "Trebuchet MS, sans-serif"
+          },
+          {
+            "name": "Verdana",
+            "value": "Verdana, sans-serif"
+          }
+        ]
+      }
+    ]
+  }
+}
