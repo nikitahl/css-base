@@ -1,0 +1,47 @@
+# Contributing
+
+Thanks for contributing to CSS Base! We're quite open to new feature requests, or any work you want to do.
+
+Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+
+## Contributor Workflow
+
+The codebase is maintained using the "contributor workflow" where everyone without exception contributes patch proposals using "pull requests". This facilitates social contribution, easy testing and peer review.
+
+To contribute a patch, the workflow is as follows:
+
+- Fork repository
+- Create topic branch
+- Commit patches
+
+If you send a pull request, please do it against the master branch.
+
+## Set up a local dev environment
+
+To set up a local dev environment following steps are required:
+
+1. Fork this repository
+2. Clone:
+```
+git clone git@github.com:[YOUR_USERNAME]/css-base.git
+```
+3. Install parcel via [https://parceljs.org/getting_started.html](https://parceljs.org/getting_started.html)
+4. Watch:
+```
+yarn start
+```
+or
+```
+npm start
+```
+5. Open http://localhost:1234/ in your browser. Find out more at [parceljs.org](https://parceljs.org/).
+
+## Codestyle
+
+There isn't any strict code style rules set up for this project however some guidelines are preferable, to keep the code clean and more readable:
+
+- A single indentation is equal to two spaces;
+- A sinle line break should follow after every CSS rule;
+- No use of semicolon in JavaScript;
+- Use ES6 syntax when possible;
+- Use singlequote over doublequotes in JavaScript files.
