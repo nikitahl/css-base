@@ -4,6 +4,13 @@ Thanks for contributing to CSS Base! We're quite open to new feature requests, o
 
 Please note we have a [code of conduct](./CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
 
+## Creating Issues
+
+When creating issues please follow the according template structure:
+- [Bug report](./.github/ISSUE_TEMPLATE/bug_report.md)
+- [Feature request](./.github/ISSUE_TEMPLATE/feature_request.md)
+- [Custom](./.github/ISSUE_TEMPLATE/custom.md)
+
 ## Contributor Workflow
 
 The codebase is maintained using the "contributor workflow" where everyone without exception contributes patch proposals using "pull requests". This facilitates social contribution, easy testing and peer review.
