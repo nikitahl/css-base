@@ -40,10 +40,61 @@
 	background: inherit;
 }
 
-.main {
-	padding: 20px;
-	position: absolute;
+.headline {
+	position: fixed;
 	top: 0;
+	left: var(--sidebar-width);
+	right: 0;
+	z-index: 1;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 var(--body-padding);
+	align-items: center;
+	background: var(--main-background-color);
+	font-family: 'Muli', sans-serif;
+}
+
+.site-heading {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-size: 28px;
+	line-height: var(--headline-height);
+	color: var(--settings-color);
+}
+
+.site-heading::before {
+	content: '';
+	position: relative;
+	background: center no-repeat url(../img/favicon-32x32.png);
+	width: 32px;
+	height: 32px;
+	background-size: 32px;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+.headline-link {
+	display: inline-block;
+	margin: 0 0 0 10px;
+	color: var(--settings-color);
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.headline-link:hover {
+	text-decoration: underline;
+}
+
+.social {
+	height: 20px;
+}
+
+.main {
+	padding: var(--body-padding);
+	position: absolute;
+	top: var(--headline-height);
 	left: 300px;
 	right: 0;
 }
