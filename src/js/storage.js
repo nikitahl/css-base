@@ -12,7 +12,7 @@ function renderEntry (configName, currentDate) {
 }
 
 function save () {
-  const configName = prompt('Enter the name of config:')
+  const configName = window.prompt('Enter the name of config:')
   if (configName) {
     const currentDate = new Date().toLocaleString()
     const savedData = { date: currentDate, data: window.currentSectionsData }
@@ -32,7 +32,7 @@ function load () {
     if (window.localStorage.length) {
       loadItems.innerHTML = ''
       for (const key in window.localStorage) {
-        if (window.localStorage.hasOwnProperty(key)) {
+        if (Object.prototype.hasOwnProperty.call(window.localStorage, key)) {
           const element = JSON.parse(window.localStorage[key])
           renderEntry(key, element.date)
         }

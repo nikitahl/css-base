@@ -10,11 +10,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "main.css": "^2.0.0",
+    "main.css": "2.0.0",
     "main.js": "0.0.1"
   },
   "devDependencies": {
     "cssnano": "4.1.10",
-    "gh-pages": "^2.1.1"
+    "gh-pages": "2.1.1",
+    "standard": "^14.3.1"
   }
 }

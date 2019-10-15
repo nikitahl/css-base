@@ -3,7 +3,7 @@ import { UTILS } from './utils'
 
 const settingsPanel = document.querySelector('.settings')
 
-function createElement(tag, classNames, content) {
+function createElement (tag, classNames, content) {
   const element = document.createElement(tag)
   element.classList.add(...classNames)
   if (content) {
@@ -28,9 +28,9 @@ function renderDropdownOptions (select, groups, selectedValue) {
 }
 
 function renderFields (body, settings) {
-  const  { sectionFields } = settings
+  const { sectionFields } = settings
   for (const key in sectionFields) {
-    if (sectionFields.hasOwnProperty(key)) {
+    if (Object.prototype.hasOwnProperty.call(sectionFields, key)) {
       const element = fieldsSettings[key]
       const value = sectionFields[key]
       const label = createElement('label', ['option'], `${UTILS.getFieldName(key)}: `)
@@ -69,9 +69,9 @@ function renderFields (body, settings) {
 
 function clearSections () {
   if (settingsPanel.children.length) {
-    var i = settingsPanel.childNodes.length;
-    while(i--){
-      settingsPanel.removeChild(settingsPanel.lastChild);
+    var i = settingsPanel.childNodes.length
+    while (i--) {
+      settingsPanel.removeChild(settingsPanel.lastChild)
     }
   }
 }

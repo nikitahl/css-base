@@ -3,7 +3,7 @@ import { UTILS } from './utils'
 const codePanel = document.querySelector('.code')
 const readyStyles = codePanel.querySelector('.ready-styles')
 const sourceCode = codePanel.querySelector('.source-code')
-let code = {}
+const code = {}
 let textValue = ''
 let styles = ''
 
@@ -30,7 +30,7 @@ function getPropertiesCodeString (props, isSourceText = false) {
 
 function generateCodeString () {
   Object.keys(code).forEach((key) => {
-    const properties = code[key];
+    const properties = code[key]
     if (Object.keys(properties).length) {
       styles += `<code class="style-selector">${key}</code> {
   ${getPropertiesCodeString(properties, false)}

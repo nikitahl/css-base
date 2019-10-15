@@ -1,10 +1,9 @@
 import sectionsData from './sectionsData.json'
 
 import initSettings from './settings'
-import { initStorage, handleStorageControlClick}  from './storage'
+import { initStorage, handleStorageControlClick } from './storage'
 import { initCodeData, handleCopyToClipboardClick } from './code'
 
-const body = document.body
 const aside = document.querySelector('.aside')
 const form = aside.querySelector('.settings')
 const main = document.querySelector('.main')
@@ -16,38 +15,38 @@ window.initialLoad = true
 window.isLoadFromStorage = false
 
 function applySettings () {
-	const fields = Array.from(aside.querySelectorAll('.field'))
-	fields.forEach((field) => {
-		upateDOMElement(field)
-	})
-	if (window.initialLoad) {
-		window.initialLoad = false
-	}
-	if (window.isLoadFromStorage) {
-		window.isLoadFromStorage = false
-	}
+  const fields = Array.from(aside.querySelectorAll('.field'))
+  fields.forEach((field) => {
+    upateDOMElement(field)
+  })
+  if (window.initialLoad) {
+    window.initialLoad = false
+  }
+  if (window.isLoadFromStorage) {
+    window.isLoadFromStorage = false
+  }
 }
 
 function upateDOMElement (element) {
-	const { tag } = element.closest('.section').dataset
-	let value = element.value
-	// Need to set empty string, for color input
-	if (window.initialLoad || window.isLoadFromStorage) {
-		value = element.getAttribute('value')
-	}
-	if (tag === 'body') {
-		document.body.style[element.dataset.property] = value
-	} else {
-		const domElements = Array.from(main.querySelectorAll(tag))
-		domElements.forEach(node => node.style[element.dataset.property] = value)
-	}
-	const sectionIndex = window.currentSectionsData.findIndex(section => tag === section.settings.tag)
-	window.currentSectionsData[sectionIndex].settings.sectionFields[element.dataset.rawProperty] = value
-	window.isFormTouched = true
+  const { tag } = element.closest('.section').dataset
+  let value = element.value
+  // Need to set empty string, for color input
+  if (window.initialLoad || window.isLoadFromStorage) {
+    value = element.getAttribute('value')
+  }
+  if (tag === 'body') {
+    document.body.style[element.dataset.property] = value
+  } else {
+    const domElements = Array.from(main.querySelectorAll(tag))
+    domElements.forEach(node => { node.style[element.dataset.property] = value })
+  }
+  const sectionIndex = window.currentSectionsData.findIndex(section => tag === section.settings.tag)
+  window.currentSectionsData[sectionIndex].settings.sectionFields[element.dataset.rawProperty] = value
+  window.isFormTouched = true
 }
 
 function handleFormChange (e) {
-	upateDOMElement(e.target)
+  upateDOMElement(e.target)
 }
 
 function handleAsideClick (e) {
@@ -64,15 +63,15 @@ function handleAsideClick (e) {
   }
   if (e.target.classList.contains('storage-control')) {
     handleStorageControlClick(e.target)
-	}
-	if (e.target.classList.contains('copy-to-clipboard')) {
+  }
+  if (e.target.classList.contains('copy-to-clipboard')) {
     handleCopyToClipboardClick(e.target)
   }
 }
 
 function handleToggleClick (e) {
-	toggleAside.classList.toggle('collapse')
-	aside.classList.toggle('collapse')
+  toggleAside.classList.toggle('collapse')
+  aside.classList.toggle('collapse')
 }
 
 window.rebuildSidebar = initSettings
@@ -85,7 +84,6 @@ applySettings()
 form.addEventListener('change', handleFormChange)
 aside.addEventListener('click', handleAsideClick)
 toggleAside.addEventListener('click', handleToggleClick)
-
 
 // TODO: Generate CSS code (Done)
 // TODO: Saving/Loading to local storage (Done)
