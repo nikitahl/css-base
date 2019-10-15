@@ -1,8 +1,8 @@
 @media screen and (max-width: 600px) {
   .aside {
     left: 0;
+    top: var(--headline-height);
     width: 100%;
-    z-index: 1;
   }
 
   .aside.collapse {
@@ -32,7 +32,6 @@
     max-height: 70%;
     padding: 40px 0;
     background: #111;
-    z-index: 2;
   }
 
   .close-modal {
@@ -44,5 +43,9 @@
 
   .mobile-view-toggle {
     display: initial;
+  }
+  
+  .headline {
+    left: 0;
   }
 }
