@@ -45,7 +45,7 @@ npm start
 
 ## Codestyle
 
-There isn't any strict code style rules set up for this project however some guidelines are preferable, to keep the code clean and more readable:
+This project uses [Standard JS](https://standardjs.com/) to validate and lint javascript code:
 
 - A single indentation is equal to two spaces;
 - A sinle line break should follow after every CSS rule;
