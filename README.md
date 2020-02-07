@@ -1,9 +1,9 @@
+<h1 align="center">
+  <img src="./src/img/favicon-32x32.png" alt="CSS Base logo" />
+  CSS Base theme generator
+</h1>
 <p align="center">
-  <h1>
-    <img src="./src/img/favicon-32x32.png" alt="CSS Base logo" />
-    CSS Base theme generator
-  </h1>
-  <img src="./src/img/css-base-look.png" alt="CSS Base site look" style="box-shadow: 0px 8px 15px 2px #aaa; width: 70%" />
+  <img src="./src/img/css-base-look.png" alt="CSS Base site look" width="70%" style="box-shadow: 0px 8px 15px 2px #aaa; width: 70%" />
 </p>
 
 ## About 
