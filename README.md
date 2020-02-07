@@ -1,15 +1,24 @@
-<div style="text-align: center;">
-  <img src="./src/img/css-base-look.png" alt="CSS Base site look" />
-</div>
+<p align="center">
+  <h1>
+    <img src="./src/img/favicon-32x32.png" alt="CSS Base logo" />
+    CSS Base theme generator
+  </h1>
+  <img src="./src/img/css-base-look.png" alt="CSS Base site look" style="box-shadow: 0px 8px 15px 2px #aaa; width: 70%" />
+</p>
 
-# ![CSS Base logo](./src/img/favicon-32x32.png) CSS Base theme generator
+## About 
 
 An online tool to quickly prototype and generate a base CSS theme for your project.
 
+## How to use
+
 - Change necessary options;
+- Click on the text to edit;
 - Review generated code;
-- Copy code to clipboard;
+- Copy the code to clipboard;
 - Paste it in to your project.
+
+## Tech stack
 
 This project is made entirely with HTML, CSS and Vanilla JavaScript.
 
@@ -21,7 +30,7 @@ Please read and follow the [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 ## Contributing
 
-Read the [contributing guide](./CONTRIBUTING.md) to learn about development process. How to build your changes to CSS Base.
+This project is open for contributions. Read the [contributing guide](./CONTRIBUTING.md) to learn about development process. How to integrate your changes to CSS Base.
 
 ## License
 
