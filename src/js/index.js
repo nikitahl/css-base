@@ -8,6 +8,7 @@ const aside = document.querySelector('.aside')
 const form = aside.querySelector('.settings')
 const main = document.querySelector('.main')
 const toggleAside = document.querySelector('.mobile-view-toggle')
+// const outputControl = document.querySelector('.output-control')
 
 window.currentSectionsData = Object.assign(sectionsData, {})
 window.isFormTouched = true
@@ -84,14 +85,3 @@ applySettings()
 form.addEventListener('change', handleFormChange)
 aside.addEventListener('click', handleAsideClick)
 toggleAside.addEventListener('click', handleToggleClick)
-
-// TODO: Generate CSS code (Done)
-// TODO: Saving/Loading to local storage (Done)
-// TODO: Copy to clipboard (Done)
-// TODO: Mobile View (Done)
-// TODO: Handle Empty storage message in modal (Done)
-// TODO: Settings for elements (h1-h6, table, form, etc) (Done)
-
-// TODO: Setup github repo
-// TODO: Link to github
-// TODO: About ?

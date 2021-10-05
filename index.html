@@ -4,7 +4,7 @@
 	<title>CSS Base theme generator</title>
 	
 	<meta charset="utf-8">
-	<meta desctiption="An online tool for prototyping and generating a base CSS theme for your project">
+	<meta desctiption="An online tool for prototyping and generating a CSS base theme for your project. Customize typography and colors of HTML elements.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<meta name="twitter:card" content="summary">
@@ -58,7 +58,16 @@
 				</div>
 		</div>
 		<main class="main" id="elements" contenteditable="true">
-			<div class="heading">Headings</div>
+			<!-- <div class="output-controls" contenteditable="false">
+				<button class="output-control" title="Expand" data-action="expand">
+					<svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><g><use></use><path d="m 10,16 2,0 0,-4 4,0 0,-2 L 10,10 l 0,6 0,0 z" id="id-27"></path></g><g><use></use><path d="m 20,10 0,2 4,0 0,4 2,0 L 26,10 l -6,0 0,0 z" id="id-28"></path></g><g><use></use><path d="m 24,24 -4,0 0,2 L 26,26 l 0,-6 -2,0 0,4 0,0 z" id="id-29"></path></g><g><use></use><path d="M 12,20 10,20 10,26 l 6,0 0,-2 -4,0 0,-4 0,0 z" id="id-30"></path></g></svg>
+					<svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%"><g><use></use><path d="m 14,14 -4,0 0,2 6,0 0,-6 -2,0 0,4 0,0 z" id="id-96"></path></g><g><use></use><path d="m 22,14 0,-4 -2,0 0,6 6,0 0,-2 -4,0 0,0 z" id="id-97"></path></g><g><use></use><path d="m 20,26 2,0 0,-4 4,0 0,-2 -6,0 0,6 0,0 z" id="id-98"></path></g><g><use></use><path d="m 10,22 4,0 0,4 2,0 0,-6 -6,0 0,2 0,0 z" id="id-99"></path></g></svg>
+				</button>
+			</div> -->
+
+			<p>Create a consistent and beautiful theme by styling basic HTML tags. Modify typography and color settings and see instant results. When finished styling, just copy and paste generated code to your project.</p>
+			<p>You can find most of the HTML tags represented on this page grouped under sections.</p>
+			<p>Click anywhere on the page to start editing texts.</p>
 			<div class="items">
 				<h1>Heading 1</h1>
 				<h2>Heading 2</h2>
@@ -67,16 +76,22 @@
 				<h5>Heading 5</h5>
 				<h6>Heading 6</h6>
 			</div>
-			
-			<div class="heading">Block texts</div>
+			<hr>
+			<h2>Block elements</h2>
 			<div class="items">
-				<div class="heading heading-2">Paragraph</div>
-				<p>The quick brown fox jumps over the lazy dog</p>
+				<h3>Paragraph</h3>
+				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+				<p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 
-				<div class="heading heading-2">Blockquote</div>
-				<blockquote>The sky was cloudless and of a deep dark blue</blockquote>
+				<h3>Blockquote</h3>
+				<blockquote>
+					"The sky was cloudless and of a deep dark blue"
+					<br>
+					- Blockquote
+				</blockquote>
 
-				<div class="heading heading-2">Address</div>
+				<h3>Address</h3>
 				<address>
 					331 E Evelyn Ave<br />
 					Mountain View, CA 94041<br />
@@ -84,9 +99,9 @@
 				</address>
 			</div>
 
-			<div class="heading">Lists</div>
+			<h2>List elements</h2>
 			<div class="items">
-				<div class="heading heading-2">Unordered list</div>
+				<h3>Unordered list</h3>
 				<ul>
 					<li>Apple pie</li>
 					<li>Cherry pie</li>
@@ -94,7 +109,7 @@
 					<li>Banana pie</li>
 				</ul>
 
-				<div class="heading heading-2">Ordered list</div>
+				<h3>Ordered list</h3>
 				<ol>
 					<li>Dodge car</li>
 					<li>Volkswagen car</li>
@@ -102,7 +117,7 @@
 					<li>Fiat car</li>
 				</ol>
 
-				<div class="heading heading-2">Description list</div>
+				<h3>Description list</h3>
 				<dl>
 					<dt>Tea</dt>
 					<dd>The first item in the list</dd>
@@ -115,21 +130,21 @@
 				</dl>
 			</div>
 
-			<div class="heading">Code</div>
+			<h2>Code elements</h2>
 			<div class="items">
-				<p><code>&lt;code&gt; tag</code></p>
-				<p><samp>&lt;samp&gt; tag</samp></p>
-				<p><kbd>&lt;kbd&gt; tag</kbd></p>
-				<pre>&lt;pre&gt; tag</pre>
+				<p><code>&lt;code&gt;</code> tag</p>
+				<p><samp>&lt;samp&gt;</samp> tag</p>
+				<p><kbd>&lt;kbd&gt;</kbd> tag</p>
+				<pre>&lt;pre&gt;The pre tag&lt;/pre&gt;</pre>
 			</div>
 
-			<div class="heading">Link</div>
+			<h2>Link element</h2>
 			<div class="items">
 				<p><a href="#">Link</a></p>
 			</div>
 
 
-			<div class="heading">Buttons</div>
+			<h2>Button elements</h2>
 			<div class="items">
 				<p><button>Button</button></p>
 				<p><input type="button" value="Input"></p>
@@ -137,7 +152,7 @@
 				<p><input type="reset"></p>
 			</div>
 
-			<div class="heading">Inline text</div>
+			<h2>Inline elements</h2>
 			<div class="items">
 				<q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">This is a &lt;q&gt; tag</q><br />
 				<abbr title="This is an abbr tag">ABBR</abbr><br />
@@ -162,44 +177,49 @@
 				<var>This is a &lt;var&gt; tag</var><br />
 			</div>
 
-			<div class="heading">Table</div>
+			<h2>Table elements</h2>
 			<div class="items">
 				<table>
 					<caption>Table caption</caption>
 					<thead>
 						<tr>
-							<th>Table</th>
-							<th>header</th>
+							<th>Table header 1</th>
+							<th>Table header 2</th>
+							<th>Table header 3</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>Table</td>
-							<td>body</td>
+							<td>Table cell 1</td>
+							<td>Table cell 2</td>
+							<td>Table cell 3</td>
 						</tr>
 						<tr>
-							<td>Table</td>
-							<td>body</td>
+							<td>Table cell 1</td>
+							<td>Table cell 2</td>
+							<td>Table cell 3</td>
 						</tr>
 						<tr>							
-							<td>Table</td>
-							<td>body</td>
+							<td>Table cell 1</td>
+							<td>Table cell 2</td>
+							<td>Table cell 3</td>
 						</tr>
 					</tbody>
 					<tfoot>
 						<tr>
-							<td scope="row">Table</td>
-							<td>footer</td>
+							<td>Table footer 1</td>
+							<td>Table footer 2</td>
+							<td>Table footer 3</td>
 						</tr>
 					</tfoot>
 				</table>
 			</div>
 
-			<div class="heading">Form</div>
+			<h2>Form elements</h2>
 			<div class="items">
 				<form>
 					<fieldset>
-						<legend>Hello World</legend>
+						<legend>Legend</legend>
 
 						<label for="textInput">Text input:</label>
 						<input type="text" name="textInput" id="textInput">
